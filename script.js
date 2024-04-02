@@ -163,8 +163,8 @@ document.onkeydown = function(e) {
     }
 };
 
-
+// Check for F12, Ctrl+Shift+I/C/J/U
 window.oncontextmenu = function () {
-    alert('Anh Zai Đừng Xài DevTool nhé tội bé!.');
-}
+    alert('Anh Zai Đừng Xài DevTool nhé tội bé!');
     return false; 
+};
