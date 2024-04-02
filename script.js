@@ -152,3 +152,19 @@ saveImgBtn.addEventListener("click", () => {
         saveImage(); 
     }, 100);
 });
+document.onkeydown = function(e) {
+    if(e.keyCode == 123) {
+        alert('Anh Zai Đừng Xài DevTool nhé tội bé!.');
+        return false;
+    }
+    if(e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'U'.charCodeAt(0))) {
+        alert('Anh Zai Đừng Xài DevTool nhé tội bé!.');
+        return false;
+    }
+};
+
+
+window.oncontextmenu = function () {
+    alert('Anh Zai Đừng Xài DevTool nhé tội bé!.');
+}
+    return false; 
