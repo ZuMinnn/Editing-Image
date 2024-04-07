@@ -25,7 +25,8 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #E3F2FD;
+  background-color: #c9d6ffD;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 
